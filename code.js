@@ -168,20 +168,20 @@ function showSelectedOperator(){
     var elements = document.getElementsByClassName("operator");
 
     for (var i=0; i<elements.length; i++){
-        elements[i].style.backgroundColor  = "#e68a00";
+        elements[i].style.backgroundColor  = "#0092e6";
     }
 
     if (operator_value == "+"){
-        document.getElementById("plusOp").style.backgroundColor  = "#ffd11a";
+        document.getElementById("plusOp").style.backgroundColor  = "#0092e6";
     }
     else if (operator_value == "-"){
-        document.getElementById("subOp").style.backgroundColor  = "#ffd11a";
+        document.getElementById("subOp").style.backgroundColor  = "#0092e6";
     }
     else if (operator_value == "*"){
-        document.getElementById("multiOp").style.backgroundColor  = "#ffd11a";
+        document.getElementById("multiOp").style.backgroundColor  = "#0092e6";
     }
     else if (operator_value == "/"){
-        document.getElementById("divOp").style.backgroundColor  = "#ffd11a";
+        document.getElementById("divOp").style.backgroundColor  = "#0092e6";
     }
 }
 
